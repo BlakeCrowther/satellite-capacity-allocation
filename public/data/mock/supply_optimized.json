@@ -1,0 +1,26 @@
+[
+  {
+    "projection_id": "optimized",
+    "satellite_id": "USA-SAT",
+    "service_area": "AMERICAS",
+    "supply_mbps": 2500,
+    "projection_start": "2025-03-12T00:56:28.623515",
+    "projection_end": "2025-03-19T00:56:28.623515"
+  },
+  {
+    "projection_id": "optimized",
+    "satellite_id": "NA-SAT",
+    "service_area": "AMERICAS",
+    "supply_mbps": 2334,
+    "projection_start": "2025-03-12T00:56:28.623521",
+    "projection_end": "2025-03-19T00:56:28.623521"
+  },
+  {
+    "projection_id": "optimized",
+    "satellite_id": "EU-SAT",
+    "service_area": "EUROPE",
+    "supply_mbps": 1521,
+    "projection_start": "2025-03-12T00:56:28.623524",
+    "projection_end": "2025-03-19T00:56:28.623524"
+  }
+]
