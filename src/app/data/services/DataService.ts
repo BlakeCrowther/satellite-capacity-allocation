@@ -3,7 +3,9 @@ import {
   DataSourceConfig,
   DataSourceType,
   DemandEntity,
+  Experiment,
   SatelliteCoverage,
+  ServiceArea,
   SupplyProjection
 } from '../models/types';
 
@@ -121,6 +123,101 @@ class DataService {
         
         if (serviceArea) {
           data = data.filter(item => item.service_area === serviceArea);
+        }
+        
+        return data;
+      } catch (error) {
+        console.error('Error loading allocation data:', error);
+        return [];
+      }
+    } else {
+      // Placeholder for Supabase implementation
+      console.warn('Supabase data source not yet implemented');
+      return [];
+    }
+  }
+
+  /**
+   * Get service area data
+   */
+  async getServiceAreas(): Promise<ServiceArea[]> {
+    if (this.config.type === DataSourceType.LOCAL) {
+      try {
+        const filePath = `${this.config.baseUrl || ''}/service_areas.json`;
+        const response = await fetch(filePath);
+        if (!response.ok) {
+          throw new Error(`Failed to load service area data: ${response.statusText}`);
+        }
+        return await response.json();
+      } catch (error) {
+        console.error('Error loading service area data:', error);
+        return [];
+      }
+    } else {
+      // Placeholder for Supabase implementation
+      console.warn('Supabase data source not yet implemented');
+      return [];
+    }
+  }
+
+  /**
+   * Get experiment configurations
+   */
+  async getExperiments(): Promise<Experiment[]> {
+    if (this.config.type === DataSourceType.LOCAL) {
+      try {
+        const filePath = `${this.config.baseUrl || ''}/experiments.json`;
+        const response = await fetch(filePath);
+        if (!response.ok) {
+          throw new Error(`Failed to load experiment data: ${response.statusText}`);
+        }
+        return await response.json();
+      } catch (error) {
+        console.error('Error loading experiment data:', error);
+        return [];
+      }
+    } else {
+      // Placeholder for Supabase implementation
+      console.warn('Supabase data source not yet implemented');
+      return [];
+    }
+  }
+
+  /**
+   * Get specific allocation data for a forecast-projection combination
+   */
+  async getAllocationDataForExperiment(forecastId: string, projectionId: string, epoch?: number): Promise<Allocation[]> {
+    if (this.config.type === DataSourceType.LOCAL) {
+      try {
+        // Map forecast and projection to experiment name
+        let experimentName = "";
+        if (forecastId === "base_forecast" && projectionId === "baseline") {
+          experimentName = "baseline";
+        } else if (forecastId === "base_forecast" && projectionId === "optimized") {
+          experimentName = "optimized";
+        } else if (forecastId === "peak_forecast" && projectionId === "baseline") {
+          experimentName = "peak_demand";
+        } else if (forecastId === "peak_forecast" && projectionId === "optimized") {
+          experimentName = "peak_optimized";
+        } else {
+          // Fallback to combined file
+          console.warn(`No specific allocation file for ${forecastId} and ${projectionId}, using combined file`);
+          return this.getAllocationData(epoch);
+        }
+
+        // Use new file naming pattern: allocation_{experiment_name}.json
+        const filePath = `${this.config.baseUrl || ''}/allocation_${experimentName}.json`;
+        
+        console.log(`Fetching allocations from: ${filePath}`);
+        const response = await fetch(filePath);
+        if (!response.ok) {
+          throw new Error(`Failed to load allocation data: ${response.statusText}`);
+        }
+        let data: Allocation[] = await response.json();
+        
+        // Filter by epoch if provided
+        if (epoch !== undefined) {
+          data = data.filter(item => item.epoch === epoch);
         }
         
         return data;

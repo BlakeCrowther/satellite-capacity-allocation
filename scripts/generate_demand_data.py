@@ -3,11 +3,13 @@ import json
 import random
 import uuid
 import math
+import shapely.geometry as sg
 from pathlib import Path
 from datetime import datetime, timedelta
 
-# Service areas and their regions to generate demand points
-SERVICE_AREAS = {
+# Regions to generate demand points - renamed to avoid confusion
+# These are geographical regions, not service areas
+GEOGRAPHICAL_REGIONS = {
     "AMERICAS": [
         # USA region
         {
@@ -69,21 +71,68 @@ SERVICE_AREAS = {
 }
 
 
+def load_service_areas(data_dir):
+    """Load service areas from JSON file"""
+    service_areas_file = data_dir / "service_areas.json"
+
+    if not service_areas_file.exists():
+        print(f"Warning: Service areas file not found at {service_areas_file}")
+        return []
+
+    with open(service_areas_file, "r") as f:
+        return json.load(f)
+
+
+def get_service_area_for_point(service_areas, lon, lat):
+    """Find which service area a point belongs to"""
+    point = sg.Point(lon, lat)
+
+    for area in service_areas:
+        # Create a shapely polygon from the coordinates
+        coords = area["geom"]["coordinates"][0]
+        polygon = sg.Polygon(coords)
+
+        if polygon.contains(point):
+            return area["service_area_id"]
+
+    # If point is not in any service area, return the ID of the closest one
+    min_distance = float("inf")
+    closest_area_id = None
+
+    for area in service_areas:
+        coords = area["geom"]["coordinates"][0]
+        polygon = sg.Polygon(coords)
+
+        distance = polygon.exterior.distance(point)
+        if distance < min_distance:
+            min_distance = distance
+            closest_area_id = area["service_area_id"]
+
+    return closest_area_id
+
+
 # Generate demand data for a specific forecast type
-def generate_demand_data(forecast_id, hours=24):
+def generate_demand_data(forecast_id, service_areas, hours=24):
     demand_data = []
 
     # Generate a timestamp for each hour
     start_time = datetime.now()
     timestamps = [(start_time + timedelta(hours=h)).isoformat() for h in range(hours)]
 
-    # Generate demand points for each service area and region
-    for service_area, regions in SERVICE_AREAS.items():
+    # Generate demand points for each region
+    for region_name, regions in GEOGRAPHICAL_REGIONS.items():
         for region in regions:
             for _ in range(region["point_count"]):
                 # Generate a random location within the region
                 lon = random.uniform(region["min_lon"], region["max_lon"])
                 lat = random.uniform(region["min_lat"], region["max_lat"])
+
+                # Find the service area this point belongs to
+                service_area_id = get_service_area_for_point(service_areas, lon, lat)
+
+                # Skip if no service area found (should not happen with closest service area fallback)
+                if not service_area_id:
+                    continue
 
                 # Generate a unique entity ID
                 entity_id = str(uuid.uuid4())[:8]
@@ -117,7 +166,7 @@ def generate_demand_data(forecast_id, hours=24):
                             "entity_id": entity_id,
                             "lat": lat,
                             "lon": lon,
-                            "service_area": service_area,
+                            "service_area": service_area_id,
                             "demand_mbps": round(demand_mbps, 2),
                             "epoch": epoch,
                             "timestamp": timestamp,
@@ -138,12 +187,19 @@ def generate_all_demand():
     # Create directory if it doesn't exist
     data_dir.mkdir(parents=True, exist_ok=True)
 
+    # Load service areas (needed to assign demand points to the right service area)
+    service_areas = load_service_areas(data_dir)
+    if not service_areas:
+        print("Error: Service areas must be generated before demand data")
+        print("Please run generate_service_areas.py first")
+        return
+
     forecasts = ["base_forecast", "peak_forecast"]
     all_demand_data = []
 
     # Generate each forecast type
     for forecast_id in forecasts:
-        forecast_data = generate_demand_data(forecast_id, hours=24)
+        forecast_data = generate_demand_data(forecast_id, service_areas, hours=24)
 
         # Write forecast-specific file
         with open(data_dir / f"demand_{forecast_id}.json", "w") as f:

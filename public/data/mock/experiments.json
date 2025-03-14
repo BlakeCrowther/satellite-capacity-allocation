@@ -1,0 +1,47 @@
+[
+  {
+    "id": "baseline_scenario",
+    "name": "Baseline Scenario",
+    "description": "Standard operations with baseline demand and supply",
+    "forecast_id": "base_forecast",
+    "projection_id": "baseline",
+    "allocation_id": "baseline_scenario",
+    "epoch": 0
+  },
+  {
+    "id": "peak_demand_scenario",
+    "name": "Peak Demand Scenario",
+    "description": "Peak demand with baseline supply capacity",
+    "forecast_id": "peak_forecast",
+    "projection_id": "baseline",
+    "allocation_id": "peak_demand_scenario",
+    "epoch": 0
+  },
+  {
+    "id": "optimized_baseline",
+    "name": "Optimized Baseline",
+    "description": "Standard demand with optimized capacity allocation",
+    "forecast_id": "base_forecast",
+    "projection_id": "optimized",
+    "allocation_id": "optimized_baseline",
+    "epoch": 0
+  },
+  {
+    "id": "optimized_peak",
+    "name": "Optimized Peak Demand",
+    "description": "Peak demand with optimized capacity allocation",
+    "forecast_id": "peak_forecast",
+    "projection_id": "optimized",
+    "allocation_id": "optimized_peak",
+    "epoch": 0
+  },
+  {
+    "id": "peak_demand_hour_1",
+    "name": "Peak Demand (Hour 1)",
+    "description": "Peak demand at hour 1 with optimized capacity",
+    "forecast_id": "peak_forecast",
+    "projection_id": "optimized",
+    "allocation_id": "peak_demand_hour_1",
+    "epoch": 1
+  }
+] 

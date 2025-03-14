@@ -1,0 +1,1606 @@
+{
+  "peak_demand": {
+    "62": {
+      "entity_count": 2,
+      "total_demand_mbps": 1120.41,
+      "total_allocated_mbps": 1120.41,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "42": {
+      "entity_count": 3,
+      "total_demand_mbps": 874.08,
+      "total_allocated_mbps": 638.04,
+      "allocation_pct": 73.0,
+      "avg_satisfaction_pct": 76.6
+    },
+    "18": {
+      "entity_count": 2,
+      "total_demand_mbps": 538.47,
+      "total_allocated_mbps": 538.47,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "95": {
+      "entity_count": 2,
+      "total_demand_mbps": 846.18,
+      "total_allocated_mbps": 846.18,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "14": {
+      "entity_count": 4,
+      "total_demand_mbps": 2266.88,
+      "total_allocated_mbps": 2173.15,
+      "allocation_pct": 95.9,
+      "avg_satisfaction_pct": 97.0
+    },
+    "13": {
+      "entity_count": 4,
+      "total_demand_mbps": 2292.11,
+      "total_allocated_mbps": 2269.24,
+      "allocation_pct": 99.0,
+      "avg_satisfaction_pct": 99.4
+    },
+    "45": {
+      "entity_count": 4,
+      "total_demand_mbps": 1720.0,
+      "total_allocated_mbps": 1720.0,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "49": {
+      "entity_count": 6,
+      "total_demand_mbps": 3464.79,
+      "total_allocated_mbps": 3464.79,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "57": {
+      "entity_count": 6,
+      "total_demand_mbps": 1894.98,
+      "total_allocated_mbps": 1870.24,
+      "allocation_pct": 98.7,
+      "avg_satisfaction_pct": 99.1
+    },
+    "70": {
+      "entity_count": 6,
+      "total_demand_mbps": 3041.05,
+      "total_allocated_mbps": 2201.29,
+      "allocation_pct": 72.4,
+      "avg_satisfaction_pct": 76.8
+    },
+    "83": {
+      "entity_count": 10,
+      "total_demand_mbps": 4495.99,
+      "total_allocated_mbps": 3416.86,
+      "allocation_pct": 76.0,
+      "avg_satisfaction_pct": 80.1
+    },
+    "51": {
+      "entity_count": 6,
+      "total_demand_mbps": 3232.8,
+      "total_allocated_mbps": 3232.8,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "64": {
+      "entity_count": 4,
+      "total_demand_mbps": 2171.05,
+      "total_allocated_mbps": 2171.05,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "63": {
+      "entity_count": 2,
+      "total_demand_mbps": 1134.42,
+      "total_allocated_mbps": 1134.42,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "50": {
+      "entity_count": 5,
+      "total_demand_mbps": 2767.51,
+      "total_allocated_mbps": 2767.51,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "94": {
+      "entity_count": 4,
+      "total_demand_mbps": 1908.25,
+      "total_allocated_mbps": 1908.25,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "61": {
+      "entity_count": 4,
+      "total_demand_mbps": 2221.27,
+      "total_allocated_mbps": 2221.27,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "72": {
+      "entity_count": 8,
+      "total_demand_mbps": 3291.72,
+      "total_allocated_mbps": 2689.27,
+      "allocation_pct": 81.7,
+      "avg_satisfaction_pct": 85.2
+    },
+    "39": {
+      "entity_count": 3,
+      "total_demand_mbps": 1660.74,
+      "total_allocated_mbps": 1660.74,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "93": {
+      "entity_count": 1,
+      "total_demand_mbps": 485.57,
+      "total_allocated_mbps": 485.57,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "15": {
+      "entity_count": 3,
+      "total_demand_mbps": 1415.0,
+      "total_allocated_mbps": 1415.0,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "37": {
+      "entity_count": 10,
+      "total_demand_mbps": 5507.96,
+      "total_allocated_mbps": 5194.93,
+      "allocation_pct": 94.3,
+      "avg_satisfaction_pct": 95.9
+    },
+    "8": {
+      "entity_count": 2,
+      "total_demand_mbps": 571.95,
+      "total_allocated_mbps": 559.55,
+      "allocation_pct": 97.8,
+      "avg_satisfaction_pct": 98.4
+    },
+    "7": {
+      "entity_count": 1,
+      "total_demand_mbps": 282.26,
+      "total_allocated_mbps": 282.26,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "5": {
+      "entity_count": 11,
+      "total_demand_mbps": 4609.7,
+      "total_allocated_mbps": 696.01,
+      "allocation_pct": 15.1,
+      "avg_satisfaction_pct": 15.9
+    },
+    "81": {
+      "entity_count": 5,
+      "total_demand_mbps": 2462.19,
+      "total_allocated_mbps": 2225.7,
+      "allocation_pct": 90.4,
+      "avg_satisfaction_pct": 92.2
+    },
+    "58": {
+      "entity_count": 15,
+      "total_demand_mbps": 7473.82,
+      "total_allocated_mbps": 3072.04,
+      "allocation_pct": 41.1,
+      "avg_satisfaction_pct": 43.4
+    },
+    "69": {
+      "entity_count": 4,
+      "total_demand_mbps": 1693.44,
+      "total_allocated_mbps": 1693.44,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "92": {
+      "entity_count": 1,
+      "total_demand_mbps": 524.35,
+      "total_allocated_mbps": 524.35,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "59": {
+      "entity_count": 11,
+      "total_demand_mbps": 4861.34,
+      "total_allocated_mbps": 2711.92,
+      "allocation_pct": 55.8,
+      "avg_satisfaction_pct": 59.6
+    },
+    "84": {
+      "entity_count": 3,
+      "total_demand_mbps": 1231.15,
+      "total_allocated_mbps": 1231.15,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "55": {
+      "entity_count": 6,
+      "total_demand_mbps": 1381.43,
+      "total_allocated_mbps": 695.96,
+      "allocation_pct": 50.4,
+      "avg_satisfaction_pct": 53.8
+    },
+    "53": {
+      "entity_count": 3,
+      "total_demand_mbps": 1716.68,
+      "total_allocated_mbps": 1708.33,
+      "allocation_pct": 99.5,
+      "avg_satisfaction_pct": 99.7
+    },
+    "27": {
+      "entity_count": 5,
+      "total_demand_mbps": 2816.44,
+      "total_allocated_mbps": 2816.44,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "41": {
+      "entity_count": 5,
+      "total_demand_mbps": 2559.96,
+      "total_allocated_mbps": 2405.6,
+      "allocation_pct": 94.0,
+      "avg_satisfaction_pct": 95.5
+    },
+    "40": {
+      "entity_count": 7,
+      "total_demand_mbps": 3814.93,
+      "total_allocated_mbps": 3814.93,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "28": {
+      "entity_count": 4,
+      "total_demand_mbps": 2142.24,
+      "total_allocated_mbps": 2142.24,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "82": {
+      "entity_count": 14,
+      "total_demand_mbps": 6948.19,
+      "total_allocated_mbps": 2399.97,
+      "allocation_pct": 34.5,
+      "avg_satisfaction_pct": 36.7
+    },
+    "65": {
+      "entity_count": 1,
+      "total_demand_mbps": 595.31,
+      "total_allocated_mbps": 595.31,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "16": {
+      "entity_count": 9,
+      "total_demand_mbps": 4092.65,
+      "total_allocated_mbps": 2684.67,
+      "allocation_pct": 65.6,
+      "avg_satisfaction_pct": 69.2
+    },
+    "47": {
+      "entity_count": 10,
+      "total_demand_mbps": 4421.19,
+      "total_allocated_mbps": 2727.12,
+      "allocation_pct": 61.7,
+      "avg_satisfaction_pct": 66.5
+    },
+    "67": {
+      "entity_count": 4,
+      "total_demand_mbps": 863.71,
+      "total_allocated_mbps": 690.98,
+      "allocation_pct": 80.0,
+      "avg_satisfaction_pct": 83.6
+    },
+    "43": {
+      "entity_count": 4,
+      "total_demand_mbps": 961.7,
+      "total_allocated_mbps": 657.41,
+      "allocation_pct": 68.4,
+      "avg_satisfaction_pct": 73.5
+    },
+    "17": {
+      "entity_count": 1,
+      "total_demand_mbps": 424.79,
+      "total_allocated_mbps": 424.79,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "46": {
+      "entity_count": 11,
+      "total_demand_mbps": 5349.16,
+      "total_allocated_mbps": 3734.65,
+      "allocation_pct": 69.8,
+      "avg_satisfaction_pct": 73.5
+    },
+    "60": {
+      "entity_count": 18,
+      "total_demand_mbps": 7410.61,
+      "total_allocated_mbps": 2832.04,
+      "allocation_pct": 38.2,
+      "avg_satisfaction_pct": 40.3
+    },
+    "6": {
+      "entity_count": 3,
+      "total_demand_mbps": 796.96,
+      "total_allocated_mbps": 644.36,
+      "allocation_pct": 80.9,
+      "avg_satisfaction_pct": 85.0
+    },
+    "19": {
+      "entity_count": 1,
+      "total_demand_mbps": 272.57,
+      "total_allocated_mbps": 272.57,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "3": {
+      "entity_count": 12,
+      "total_demand_mbps": 4975.06,
+      "total_allocated_mbps": 2663.97,
+      "allocation_pct": 53.5,
+      "avg_satisfaction_pct": 57.4
+    },
+    "30": {
+      "entity_count": 2,
+      "total_demand_mbps": 558.31,
+      "total_allocated_mbps": 531.69,
+      "allocation_pct": 95.2,
+      "avg_satisfaction_pct": 97.0
+    },
+    "52": {
+      "entity_count": 2,
+      "total_demand_mbps": 1149.86,
+      "total_allocated_mbps": 1149.86,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "29": {
+      "entity_count": 2,
+      "total_demand_mbps": 1141.2,
+      "total_allocated_mbps": 1141.2,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "25": {
+      "entity_count": 5,
+      "total_demand_mbps": 2762.09,
+      "total_allocated_mbps": 2762.09,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "26": {
+      "entity_count": 10,
+      "total_demand_mbps": 5723.0,
+      "total_allocated_mbps": 5263.13,
+      "allocation_pct": 92.0,
+      "avg_satisfaction_pct": 93.9
+    },
+    "71": {
+      "entity_count": 13,
+      "total_demand_mbps": 5946.92,
+      "total_allocated_mbps": 2735.97,
+      "allocation_pct": 46.0,
+      "avg_satisfaction_pct": 49.1
+    },
+    "4": {
+      "entity_count": 8,
+      "total_demand_mbps": 3241.26,
+      "total_allocated_mbps": 2783.23,
+      "allocation_pct": 85.9,
+      "avg_satisfaction_pct": 88.5
+    },
+    "38": {
+      "entity_count": 3,
+      "total_demand_mbps": 1742.81,
+      "total_allocated_mbps": 1742.81,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "31": {
+      "entity_count": 5,
+      "total_demand_mbps": 1291.27,
+      "total_allocated_mbps": 744.01,
+      "allocation_pct": 57.6,
+      "avg_satisfaction_pct": 61.2
+    }
+  },
+  "optimized": {
+    "62": {
+      "entity_count": 2,
+      "total_demand_mbps": 754.14,
+      "total_allocated_mbps": 754.14,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "42": {
+      "entity_count": 2,
+      "total_demand_mbps": 365.05,
+      "total_allocated_mbps": 365.05,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "18": {
+      "entity_count": 3,
+      "total_demand_mbps": 552.81,
+      "total_allocated_mbps": 552.22,
+      "allocation_pct": 99.9,
+      "avg_satisfaction_pct": 99.9
+    },
+    "95": {
+      "entity_count": 2,
+      "total_demand_mbps": 553.06,
+      "total_allocated_mbps": 553.06,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "13": {
+      "entity_count": 2,
+      "total_demand_mbps": 766.52,
+      "total_allocated_mbps": 766.52,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "14": {
+      "entity_count": 3,
+      "total_demand_mbps": 1101.04,
+      "total_allocated_mbps": 1101.04,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "45": {
+      "entity_count": 4,
+      "total_demand_mbps": 953.83,
+      "total_allocated_mbps": 953.83,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "49": {
+      "entity_count": 6,
+      "total_demand_mbps": 2152.2,
+      "total_allocated_mbps": 2152.2,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "57": {
+      "entity_count": 14,
+      "total_demand_mbps": 3430.95,
+      "total_allocated_mbps": 2677.97,
+      "allocation_pct": 78.1,
+      "avg_satisfaction_pct": 81.8
+    },
+    "70": {
+      "entity_count": 9,
+      "total_demand_mbps": 2914.44,
+      "total_allocated_mbps": 2914.44,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "83": {
+      "entity_count": 12,
+      "total_demand_mbps": 3530.76,
+      "total_allocated_mbps": 2804.66,
+      "allocation_pct": 79.4,
+      "avg_satisfaction_pct": 83.1
+    },
+    "51": {
+      "entity_count": 6,
+      "total_demand_mbps": 2152.8,
+      "total_allocated_mbps": 2152.8,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "64": {
+      "entity_count": 1,
+      "total_demand_mbps": 358.55,
+      "total_allocated_mbps": 358.55,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "63": {
+      "entity_count": 5,
+      "total_demand_mbps": 1795.47,
+      "total_allocated_mbps": 1795.47,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "50": {
+      "entity_count": 7,
+      "total_demand_mbps": 2507.0,
+      "total_allocated_mbps": 2507.0,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "94": {
+      "entity_count": 2,
+      "total_demand_mbps": 657.12,
+      "total_allocated_mbps": 657.12,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "61": {
+      "entity_count": 4,
+      "total_demand_mbps": 1423.31,
+      "total_allocated_mbps": 1423.31,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "96": {
+      "entity_count": 1,
+      "total_demand_mbps": 267.2,
+      "total_allocated_mbps": 267.2,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "68": {
+      "entity_count": 1,
+      "total_demand_mbps": 151.95,
+      "total_allocated_mbps": 151.95,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "72": {
+      "entity_count": 7,
+      "total_demand_mbps": 1880.58,
+      "total_allocated_mbps": 1880.58,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "39": {
+      "entity_count": 5,
+      "total_demand_mbps": 1802.89,
+      "total_allocated_mbps": 1802.89,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "15": {
+      "entity_count": 9,
+      "total_demand_mbps": 2758.96,
+      "total_allocated_mbps": 2736.32,
+      "allocation_pct": 99.2,
+      "avg_satisfaction_pct": 99.4
+    },
+    "37": {
+      "entity_count": 8,
+      "total_demand_mbps": 2889.91,
+      "total_allocated_mbps": 2889.91,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "7": {
+      "entity_count": 1,
+      "total_demand_mbps": 181.55,
+      "total_allocated_mbps": 181.55,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "5": {
+      "entity_count": 6,
+      "total_demand_mbps": 1632.8,
+      "total_allocated_mbps": 839.99,
+      "allocation_pct": 51.4,
+      "avg_satisfaction_pct": 55.5
+    },
+    "81": {
+      "entity_count": 3,
+      "total_demand_mbps": 812.89,
+      "total_allocated_mbps": 812.89,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "69": {
+      "entity_count": 5,
+      "total_demand_mbps": 1456.85,
+      "total_allocated_mbps": 1456.85,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "58": {
+      "entity_count": 16,
+      "total_demand_mbps": 5293.93,
+      "total_allocated_mbps": 2759.97,
+      "allocation_pct": 52.1,
+      "avg_satisfaction_pct": 55.4
+    },
+    "59": {
+      "entity_count": 13,
+      "total_demand_mbps": 3645.18,
+      "total_allocated_mbps": 3388.34,
+      "allocation_pct": 93.0,
+      "avg_satisfaction_pct": 94.5
+    },
+    "84": {
+      "entity_count": 8,
+      "total_demand_mbps": 2135.71,
+      "total_allocated_mbps": 2135.71,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "82": {
+      "entity_count": 15,
+      "total_demand_mbps": 4905.62,
+      "total_allocated_mbps": 3167.98,
+      "allocation_pct": 64.6,
+      "avg_satisfaction_pct": 68.5
+    },
+    "41": {
+      "entity_count": 3,
+      "total_demand_mbps": 889.38,
+      "total_allocated_mbps": 889.38,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "27": {
+      "entity_count": 8,
+      "total_demand_mbps": 2898.34,
+      "total_allocated_mbps": 2898.34,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "40": {
+      "entity_count": 2,
+      "total_demand_mbps": 710.56,
+      "total_allocated_mbps": 710.56,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "53": {
+      "entity_count": 1,
+      "total_demand_mbps": 184.97,
+      "total_allocated_mbps": 184.97,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "28": {
+      "entity_count": 7,
+      "total_demand_mbps": 2522.54,
+      "total_allocated_mbps": 2522.54,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "55": {
+      "entity_count": 3,
+      "total_demand_mbps": 436.88,
+      "total_allocated_mbps": 436.88,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "47": {
+      "entity_count": 5,
+      "total_demand_mbps": 1483.69,
+      "total_allocated_mbps": 1483.69,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "16": {
+      "entity_count": 7,
+      "total_demand_mbps": 2029.34,
+      "total_allocated_mbps": 2029.34,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "67": {
+      "entity_count": 1,
+      "total_demand_mbps": 146.28,
+      "total_allocated_mbps": 146.28,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "43": {
+      "entity_count": 5,
+      "total_demand_mbps": 748.26,
+      "total_allocated_mbps": 692.78,
+      "allocation_pct": 92.6,
+      "avg_satisfaction_pct": 94.2
+    },
+    "17": {
+      "entity_count": 3,
+      "total_demand_mbps": 885.53,
+      "total_allocated_mbps": 885.53,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "46": {
+      "entity_count": 9,
+      "total_demand_mbps": 2859.35,
+      "total_allocated_mbps": 2859.35,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "60": {
+      "entity_count": 3,
+      "total_demand_mbps": 802.19,
+      "total_allocated_mbps": 802.19,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "6": {
+      "entity_count": 3,
+      "total_demand_mbps": 608.84,
+      "total_allocated_mbps": 608.15,
+      "allocation_pct": 99.9,
+      "avg_satisfaction_pct": 99.9
+    },
+    "19": {
+      "entity_count": 3,
+      "total_demand_mbps": 543.59,
+      "total_allocated_mbps": 527.08,
+      "allocation_pct": 97.0,
+      "avg_satisfaction_pct": 98.0
+    },
+    "3": {
+      "entity_count": 9,
+      "total_demand_mbps": 2360.97,
+      "total_allocated_mbps": 2360.97,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "30": {
+      "entity_count": 3,
+      "total_demand_mbps": 527.0,
+      "total_allocated_mbps": 527.0,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "52": {
+      "entity_count": 2,
+      "total_demand_mbps": 727.23,
+      "total_allocated_mbps": 727.23,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "25": {
+      "entity_count": 8,
+      "total_demand_mbps": 2911.79,
+      "total_allocated_mbps": 2911.79,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "26": {
+      "entity_count": 8,
+      "total_demand_mbps": 2838.09,
+      "total_allocated_mbps": 2838.09,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "71": {
+      "entity_count": 12,
+      "total_demand_mbps": 3376.31,
+      "total_allocated_mbps": 3376.31,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "4": {
+      "entity_count": 12,
+      "total_demand_mbps": 3164.35,
+      "total_allocated_mbps": 3031.55,
+      "allocation_pct": 95.8,
+      "avg_satisfaction_pct": 96.8
+    },
+    "48": {
+      "entity_count": 10,
+      "total_demand_mbps": 2749.9,
+      "total_allocated_mbps": 2574.86,
+      "allocation_pct": 93.6,
+      "avg_satisfaction_pct": 95.0
+    },
+    "38": {
+      "entity_count": 7,
+      "total_demand_mbps": 2464.31,
+      "total_allocated_mbps": 2464.31,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "31": {
+      "entity_count": 4,
+      "total_demand_mbps": 686.34,
+      "total_allocated_mbps": 664.93,
+      "allocation_pct": 96.9,
+      "avg_satisfaction_pct": 97.7
+    }
+  },
+  "baseline": {
+    "62": {
+      "entity_count": 2,
+      "total_demand_mbps": 754.14,
+      "total_allocated_mbps": 754.14,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "42": {
+      "entity_count": 2,
+      "total_demand_mbps": 365.05,
+      "total_allocated_mbps": 365.05,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "18": {
+      "entity_count": 3,
+      "total_demand_mbps": 552.81,
+      "total_allocated_mbps": 552.22,
+      "allocation_pct": 99.9,
+      "avg_satisfaction_pct": 99.9
+    },
+    "95": {
+      "entity_count": 2,
+      "total_demand_mbps": 553.06,
+      "total_allocated_mbps": 553.06,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "13": {
+      "entity_count": 2,
+      "total_demand_mbps": 766.52,
+      "total_allocated_mbps": 766.52,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "14": {
+      "entity_count": 3,
+      "total_demand_mbps": 1101.04,
+      "total_allocated_mbps": 1101.04,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "45": {
+      "entity_count": 4,
+      "total_demand_mbps": 953.83,
+      "total_allocated_mbps": 953.83,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "49": {
+      "entity_count": 6,
+      "total_demand_mbps": 2152.2,
+      "total_allocated_mbps": 2152.2,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "57": {
+      "entity_count": 14,
+      "total_demand_mbps": 3430.95,
+      "total_allocated_mbps": 2454.61,
+      "allocation_pct": 71.5,
+      "avg_satisfaction_pct": 75.6
+    },
+    "70": {
+      "entity_count": 9,
+      "total_demand_mbps": 2914.44,
+      "total_allocated_mbps": 2173.09,
+      "allocation_pct": 74.6,
+      "avg_satisfaction_pct": 78.7
+    },
+    "83": {
+      "entity_count": 12,
+      "total_demand_mbps": 3530.76,
+      "total_allocated_mbps": 3148.36,
+      "allocation_pct": 89.2,
+      "avg_satisfaction_pct": 91.5
+    },
+    "51": {
+      "entity_count": 6,
+      "total_demand_mbps": 2152.8,
+      "total_allocated_mbps": 2152.8,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "64": {
+      "entity_count": 1,
+      "total_demand_mbps": 358.55,
+      "total_allocated_mbps": 358.55,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "63": {
+      "entity_count": 5,
+      "total_demand_mbps": 1795.47,
+      "total_allocated_mbps": 1795.47,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "50": {
+      "entity_count": 7,
+      "total_demand_mbps": 2507.0,
+      "total_allocated_mbps": 2507.0,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "94": {
+      "entity_count": 2,
+      "total_demand_mbps": 657.12,
+      "total_allocated_mbps": 657.12,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "61": {
+      "entity_count": 4,
+      "total_demand_mbps": 1423.31,
+      "total_allocated_mbps": 1423.31,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "96": {
+      "entity_count": 1,
+      "total_demand_mbps": 267.2,
+      "total_allocated_mbps": 267.2,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "68": {
+      "entity_count": 1,
+      "total_demand_mbps": 151.95,
+      "total_allocated_mbps": 151.95,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "72": {
+      "entity_count": 7,
+      "total_demand_mbps": 1880.58,
+      "total_allocated_mbps": 1880.58,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "39": {
+      "entity_count": 5,
+      "total_demand_mbps": 1802.89,
+      "total_allocated_mbps": 1802.89,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "15": {
+      "entity_count": 9,
+      "total_demand_mbps": 2758.96,
+      "total_allocated_mbps": 2514.35,
+      "allocation_pct": 91.1,
+      "avg_satisfaction_pct": 93.0
+    },
+    "37": {
+      "entity_count": 8,
+      "total_demand_mbps": 2889.91,
+      "total_allocated_mbps": 2889.91,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "7": {
+      "entity_count": 1,
+      "total_demand_mbps": 181.55,
+      "total_allocated_mbps": 181.55,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "5": {
+      "entity_count": 6,
+      "total_demand_mbps": 1632.8,
+      "total_allocated_mbps": 696.03,
+      "allocation_pct": 42.6,
+      "avg_satisfaction_pct": 46.0
+    },
+    "81": {
+      "entity_count": 3,
+      "total_demand_mbps": 812.89,
+      "total_allocated_mbps": 812.89,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "69": {
+      "entity_count": 5,
+      "total_demand_mbps": 1456.85,
+      "total_allocated_mbps": 1456.85,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "58": {
+      "entity_count": 16,
+      "total_demand_mbps": 5293.93,
+      "total_allocated_mbps": 3071.97,
+      "allocation_pct": 58.0,
+      "avg_satisfaction_pct": 61.6
+    },
+    "59": {
+      "entity_count": 13,
+      "total_demand_mbps": 3645.18,
+      "total_allocated_mbps": 2664.78,
+      "allocation_pct": 73.1,
+      "avg_satisfaction_pct": 77.2
+    },
+    "84": {
+      "entity_count": 8,
+      "total_demand_mbps": 2135.71,
+      "total_allocated_mbps": 1991.3,
+      "allocation_pct": 93.2,
+      "avg_satisfaction_pct": 94.7
+    },
+    "82": {
+      "entity_count": 15,
+      "total_demand_mbps": 4905.62,
+      "total_allocated_mbps": 2400.0,
+      "allocation_pct": 48.9,
+      "avg_satisfaction_pct": 51.9
+    },
+    "41": {
+      "entity_count": 3,
+      "total_demand_mbps": 889.38,
+      "total_allocated_mbps": 889.38,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "27": {
+      "entity_count": 8,
+      "total_demand_mbps": 2898.34,
+      "total_allocated_mbps": 2898.34,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "40": {
+      "entity_count": 2,
+      "total_demand_mbps": 710.56,
+      "total_allocated_mbps": 710.56,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "53": {
+      "entity_count": 1,
+      "total_demand_mbps": 184.97,
+      "total_allocated_mbps": 184.97,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "28": {
+      "entity_count": 7,
+      "total_demand_mbps": 2522.54,
+      "total_allocated_mbps": 2522.54,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "55": {
+      "entity_count": 3,
+      "total_demand_mbps": 436.88,
+      "total_allocated_mbps": 436.88,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "47": {
+      "entity_count": 5,
+      "total_demand_mbps": 1483.69,
+      "total_allocated_mbps": 1483.69,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "16": {
+      "entity_count": 7,
+      "total_demand_mbps": 2029.34,
+      "total_allocated_mbps": 2010.41,
+      "allocation_pct": 99.1,
+      "avg_satisfaction_pct": 99.4
+    },
+    "67": {
+      "entity_count": 1,
+      "total_demand_mbps": 146.28,
+      "total_allocated_mbps": 146.28,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "43": {
+      "entity_count": 5,
+      "total_demand_mbps": 748.26,
+      "total_allocated_mbps": 640.09,
+      "allocation_pct": 85.5,
+      "avg_satisfaction_pct": 88.0
+    },
+    "17": {
+      "entity_count": 3,
+      "total_demand_mbps": 885.53,
+      "total_allocated_mbps": 885.53,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "46": {
+      "entity_count": 9,
+      "total_demand_mbps": 2859.35,
+      "total_allocated_mbps": 2851.61,
+      "allocation_pct": 99.7,
+      "avg_satisfaction_pct": 99.8
+    },
+    "60": {
+      "entity_count": 3,
+      "total_demand_mbps": 802.19,
+      "total_allocated_mbps": 802.19,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "6": {
+      "entity_count": 3,
+      "total_demand_mbps": 608.84,
+      "total_allocated_mbps": 580.7,
+      "allocation_pct": 95.4,
+      "avg_satisfaction_pct": 96.4
+    },
+    "19": {
+      "entity_count": 3,
+      "total_demand_mbps": 543.59,
+      "total_allocated_mbps": 536.91,
+      "allocation_pct": 98.8,
+      "avg_satisfaction_pct": 99.2
+    },
+    "3": {
+      "entity_count": 9,
+      "total_demand_mbps": 2360.97,
+      "total_allocated_mbps": 2262.41,
+      "allocation_pct": 95.8,
+      "avg_satisfaction_pct": 96.8
+    },
+    "30": {
+      "entity_count": 3,
+      "total_demand_mbps": 527.0,
+      "total_allocated_mbps": 520.56,
+      "allocation_pct": 98.8,
+      "avg_satisfaction_pct": 99.1
+    },
+    "52": {
+      "entity_count": 2,
+      "total_demand_mbps": 727.23,
+      "total_allocated_mbps": 727.23,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "25": {
+      "entity_count": 8,
+      "total_demand_mbps": 2911.79,
+      "total_allocated_mbps": 2911.79,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "26": {
+      "entity_count": 8,
+      "total_demand_mbps": 2838.09,
+      "total_allocated_mbps": 2838.09,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "71": {
+      "entity_count": 12,
+      "total_demand_mbps": 3376.31,
+      "total_allocated_mbps": 2659.74,
+      "allocation_pct": 78.8,
+      "avg_satisfaction_pct": 82.5
+    },
+    "4": {
+      "entity_count": 12,
+      "total_demand_mbps": 3164.35,
+      "total_allocated_mbps": 2767.25,
+      "allocation_pct": 87.5,
+      "avg_satisfaction_pct": 90.0
+    },
+    "48": {
+      "entity_count": 10,
+      "total_demand_mbps": 2749.9,
+      "total_allocated_mbps": 2629.65,
+      "allocation_pct": 95.6,
+      "avg_satisfaction_pct": 96.6
+    },
+    "38": {
+      "entity_count": 7,
+      "total_demand_mbps": 2464.31,
+      "total_allocated_mbps": 2464.31,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "31": {
+      "entity_count": 4,
+      "total_demand_mbps": 686.34,
+      "total_allocated_mbps": 633.18,
+      "allocation_pct": 92.3,
+      "avg_satisfaction_pct": 94.2
+    }
+  },
+  "peak_optimized": {
+    "62": {
+      "entity_count": 2,
+      "total_demand_mbps": 1120.41,
+      "total_allocated_mbps": 1120.41,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "42": {
+      "entity_count": 3,
+      "total_demand_mbps": 874.08,
+      "total_allocated_mbps": 726.67,
+      "allocation_pct": 83.1,
+      "avg_satisfaction_pct": 86.2
+    },
+    "18": {
+      "entity_count": 2,
+      "total_demand_mbps": 538.47,
+      "total_allocated_mbps": 538.47,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "95": {
+      "entity_count": 2,
+      "total_demand_mbps": 846.18,
+      "total_allocated_mbps": 846.18,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "14": {
+      "entity_count": 4,
+      "total_demand_mbps": 2266.88,
+      "total_allocated_mbps": 2266.88,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "13": {
+      "entity_count": 4,
+      "total_demand_mbps": 2292.11,
+      "total_allocated_mbps": 2292.11,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "45": {
+      "entity_count": 4,
+      "total_demand_mbps": 1720.0,
+      "total_allocated_mbps": 1720.0,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "49": {
+      "entity_count": 6,
+      "total_demand_mbps": 3464.79,
+      "total_allocated_mbps": 3464.79,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "57": {
+      "entity_count": 6,
+      "total_demand_mbps": 1894.98,
+      "total_allocated_mbps": 1894.98,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "70": {
+      "entity_count": 6,
+      "total_demand_mbps": 3041.05,
+      "total_allocated_mbps": 3041.05,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "83": {
+      "entity_count": 10,
+      "total_demand_mbps": 4495.99,
+      "total_allocated_mbps": 2919.73,
+      "allocation_pct": 64.9,
+      "avg_satisfaction_pct": 69.3
+    },
+    "51": {
+      "entity_count": 6,
+      "total_demand_mbps": 3232.8,
+      "total_allocated_mbps": 3232.8,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "64": {
+      "entity_count": 4,
+      "total_demand_mbps": 2171.05,
+      "total_allocated_mbps": 2171.05,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "63": {
+      "entity_count": 2,
+      "total_demand_mbps": 1134.42,
+      "total_allocated_mbps": 1134.42,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "50": {
+      "entity_count": 5,
+      "total_demand_mbps": 2767.51,
+      "total_allocated_mbps": 2767.51,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "94": {
+      "entity_count": 4,
+      "total_demand_mbps": 1908.25,
+      "total_allocated_mbps": 1908.25,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "61": {
+      "entity_count": 4,
+      "total_demand_mbps": 2221.27,
+      "total_allocated_mbps": 2221.27,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "72": {
+      "entity_count": 8,
+      "total_demand_mbps": 3291.72,
+      "total_allocated_mbps": 3226.0,
+      "allocation_pct": 98.0,
+      "avg_satisfaction_pct": 98.6
+    },
+    "39": {
+      "entity_count": 3,
+      "total_demand_mbps": 1660.74,
+      "total_allocated_mbps": 1660.74,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "93": {
+      "entity_count": 1,
+      "total_demand_mbps": 485.57,
+      "total_allocated_mbps": 485.57,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "15": {
+      "entity_count": 3,
+      "total_demand_mbps": 1415.0,
+      "total_allocated_mbps": 1415.0,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "37": {
+      "entity_count": 10,
+      "total_demand_mbps": 5507.96,
+      "total_allocated_mbps": 5507.96,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "8": {
+      "entity_count": 2,
+      "total_demand_mbps": 571.95,
+      "total_allocated_mbps": 570.46,
+      "allocation_pct": 99.7,
+      "avg_satisfaction_pct": 99.8
+    },
+    "7": {
+      "entity_count": 1,
+      "total_demand_mbps": 282.26,
+      "total_allocated_mbps": 282.26,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "5": {
+      "entity_count": 11,
+      "total_demand_mbps": 4609.7,
+      "total_allocated_mbps": 839.99,
+      "allocation_pct": 18.2,
+      "avg_satisfaction_pct": 19.2
+    },
+    "81": {
+      "entity_count": 5,
+      "total_demand_mbps": 2462.19,
+      "total_allocated_mbps": 2462.19,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "58": {
+      "entity_count": 15,
+      "total_demand_mbps": 7473.82,
+      "total_allocated_mbps": 2760.01,
+      "allocation_pct": 36.9,
+      "avg_satisfaction_pct": 39.0
+    },
+    "69": {
+      "entity_count": 4,
+      "total_demand_mbps": 1693.44,
+      "total_allocated_mbps": 1693.44,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "92": {
+      "entity_count": 1,
+      "total_demand_mbps": 524.35,
+      "total_allocated_mbps": 524.35,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "59": {
+      "entity_count": 11,
+      "total_demand_mbps": 4861.34,
+      "total_allocated_mbps": 3769.33,
+      "allocation_pct": 77.5,
+      "avg_satisfaction_pct": 81.4
+    },
+    "84": {
+      "entity_count": 3,
+      "total_demand_mbps": 1231.15,
+      "total_allocated_mbps": 1231.15,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "55": {
+      "entity_count": 6,
+      "total_demand_mbps": 1381.43,
+      "total_allocated_mbps": 768.06,
+      "allocation_pct": 55.6,
+      "avg_satisfaction_pct": 59.3
+    },
+    "53": {
+      "entity_count": 3,
+      "total_demand_mbps": 1716.68,
+      "total_allocated_mbps": 1716.68,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "27": {
+      "entity_count": 5,
+      "total_demand_mbps": 2816.44,
+      "total_allocated_mbps": 2816.44,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "41": {
+      "entity_count": 5,
+      "total_demand_mbps": 2559.96,
+      "total_allocated_mbps": 2542.92,
+      "allocation_pct": 99.3,
+      "avg_satisfaction_pct": 99.5
+    },
+    "40": {
+      "entity_count": 7,
+      "total_demand_mbps": 3814.93,
+      "total_allocated_mbps": 3814.93,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "28": {
+      "entity_count": 4,
+      "total_demand_mbps": 2142.24,
+      "total_allocated_mbps": 2142.24,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "82": {
+      "entity_count": 14,
+      "total_demand_mbps": 6948.19,
+      "total_allocated_mbps": 3168.02,
+      "allocation_pct": 45.6,
+      "avg_satisfaction_pct": 48.5
+    },
+    "65": {
+      "entity_count": 1,
+      "total_demand_mbps": 595.31,
+      "total_allocated_mbps": 595.31,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "16": {
+      "entity_count": 9,
+      "total_demand_mbps": 4092.65,
+      "total_allocated_mbps": 3669.11,
+      "allocation_pct": 89.7,
+      "avg_satisfaction_pct": 91.7
+    },
+    "47": {
+      "entity_count": 10,
+      "total_demand_mbps": 4421.19,
+      "total_allocated_mbps": 3692.66,
+      "allocation_pct": 83.5,
+      "avg_satisfaction_pct": 87.0
+    },
+    "67": {
+      "entity_count": 4,
+      "total_demand_mbps": 863.71,
+      "total_allocated_mbps": 775.58,
+      "allocation_pct": 89.8,
+      "avg_satisfaction_pct": 92.2
+    },
+    "43": {
+      "entity_count": 4,
+      "total_demand_mbps": 961.7,
+      "total_allocated_mbps": 730.39,
+      "allocation_pct": 75.9,
+      "avg_satisfaction_pct": 80.7
+    },
+    "17": {
+      "entity_count": 1,
+      "total_demand_mbps": 424.79,
+      "total_allocated_mbps": 424.79,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "46": {
+      "entity_count": 11,
+      "total_demand_mbps": 5349.16,
+      "total_allocated_mbps": 4721.41,
+      "allocation_pct": 88.3,
+      "avg_satisfaction_pct": 90.6
+    },
+    "60": {
+      "entity_count": 18,
+      "total_demand_mbps": 7410.61,
+      "total_allocated_mbps": 3047.95,
+      "allocation_pct": 41.1,
+      "avg_satisfaction_pct": 43.4
+    },
+    "6": {
+      "entity_count": 3,
+      "total_demand_mbps": 796.96,
+      "total_allocated_mbps": 706.83,
+      "allocation_pct": 88.7,
+      "avg_satisfaction_pct": 91.5
+    },
+    "19": {
+      "entity_count": 1,
+      "total_demand_mbps": 272.57,
+      "total_allocated_mbps": 272.57,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "3": {
+      "entity_count": 12,
+      "total_demand_mbps": 4975.06,
+      "total_allocated_mbps": 3806.23,
+      "allocation_pct": 76.5,
+      "avg_satisfaction_pct": 80.8
+    },
+    "30": {
+      "entity_count": 2,
+      "total_demand_mbps": 558.31,
+      "total_allocated_mbps": 550.36,
+      "allocation_pct": 98.6,
+      "avg_satisfaction_pct": 99.2
+    },
+    "52": {
+      "entity_count": 2,
+      "total_demand_mbps": 1149.86,
+      "total_allocated_mbps": 1149.86,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "29": {
+      "entity_count": 2,
+      "total_demand_mbps": 1141.2,
+      "total_allocated_mbps": 1141.2,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "25": {
+      "entity_count": 5,
+      "total_demand_mbps": 2762.09,
+      "total_allocated_mbps": 2762.09,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "26": {
+      "entity_count": 10,
+      "total_demand_mbps": 5723.0,
+      "total_allocated_mbps": 5723.0,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "71": {
+      "entity_count": 13,
+      "total_demand_mbps": 5946.92,
+      "total_allocated_mbps": 4803.28,
+      "allocation_pct": 80.8,
+      "avg_satisfaction_pct": 84.2
+    },
+    "4": {
+      "entity_count": 8,
+      "total_demand_mbps": 3241.26,
+      "total_allocated_mbps": 3079.36,
+      "allocation_pct": 95.0,
+      "avg_satisfaction_pct": 96.1
+    },
+    "38": {
+      "entity_count": 3,
+      "total_demand_mbps": 1742.81,
+      "total_allocated_mbps": 1742.81,
+      "allocation_pct": 100.0,
+      "avg_satisfaction_pct": 100.0
+    },
+    "31": {
+      "entity_count": 5,
+      "total_demand_mbps": 1291.27,
+      "total_allocated_mbps": 839.02,
+      "allocation_pct": 65.0,
+      "avg_satisfaction_pct": 68.9
+    }
+  }
+}

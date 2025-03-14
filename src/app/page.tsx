@@ -1,5 +1,9 @@
 "use client";
 
+import {
+  DEFAULT_H3_RESOLUTION,
+  DEFAULT_VIEW_STATE_3D,
+} from "./config/mapConfig";
 import React, { useState } from "react";
 
 import ControlPanel from "./components/ControlPanel";
@@ -21,11 +25,11 @@ export default function Home() {
     allocation: false,
   });
 
-  // Add state for 3D view controls
-  const [viewState3D, setViewState3D] = useState({
-    pitch: 45,
-    elevationScale: 15,
-  });
+  // Add state for 3D view controls using the shared default
+  const [viewState3D, setViewState3D] = useState(DEFAULT_VIEW_STATE_3D);
+
+  // Add state for H3 resolution with default from config
+  const [h3Resolution, setH3Resolution] = useState(DEFAULT_H3_RESOLUTION);
 
   return (
     <main className='h-screen w-screen overflow-hidden relative'>
@@ -34,6 +38,7 @@ export default function Home() {
         layerVisibility={layerVisibility}
         viewState3D={viewState3D}
         setViewState3D={setViewState3D}
+        h3Resolution={h3Resolution}
       />
       <ControlPanel
         dataConfig={dataConfig}
@@ -42,6 +47,8 @@ export default function Home() {
         setLayerVisibility={setLayerVisibility}
         viewState={viewState3D}
         setViewState={setViewState3D}
+        h3Resolution={h3Resolution}
+        setH3Resolution={setH3Resolution}
       />
     </main>
   );

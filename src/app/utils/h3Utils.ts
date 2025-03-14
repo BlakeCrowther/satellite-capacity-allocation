@@ -2,8 +2,9 @@ import * as h3 from 'h3-js';
 
 import { AggregatedDemand, DemandEntity } from '../data/models/types';
 
+import { DEFAULT_H3_RESOLUTION } from '../config/mapConfig';
+
 // Default H3 resolution for demand aggregation
-export const DEFAULT_H3_RESOLUTION = 4;
 
 /**
  * Aggregate demand data to H3 hexagons

@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import os
-import time
 from pathlib import Path
 
 print("Starting data generation for satellite capacity allocation visualization...")
@@ -21,18 +20,24 @@ from generate_supply_data import generate_supply_data
 
 generate_supply_data()
 
+# Import and run service area generation
+print("\n3. Generating service areas...")
+from generate_service_areas import generate_service_areas
+
+generate_service_areas()
+
 # Import and run demand data generation
-print("\n3. Generating demand data...")
+print("\n4. Generating demand data...")
 from generate_demand_data import generate_all_demand
 
 generate_all_demand()
 
-# Create empty allocations file (placeholder for future)
-print("\n4. Creating empty allocations file...")
+# Generate allocations from supply to demand entities
+print("\n5. Generating allocation data...")
+from generate_allocations import generate_allocations
+
 data_dir = project_root / "public" / "data" / "mock"
-data_dir.mkdir(parents=True, exist_ok=True)
-with open(data_dir / "allocations.json", "w") as f:
-    f.write("[]")
+generate_allocations(data_dir)
 
 print("\nAll mock data successfully generated!")
 print(f"Files created in: {os.path.abspath(data_dir)}")

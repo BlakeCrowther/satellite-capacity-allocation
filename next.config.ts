@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
     '@deck.gl/layers',
     '@deck.gl/geo-layers',
     '@deck.gl/react',
+    '@deck.gl/carto',
     'h3-js'
   ],
 };

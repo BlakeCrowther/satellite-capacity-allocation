@@ -13,6 +13,7 @@
     "generate-all-data": "python scripts/generate_all_data.py"
   },
   "dependencies": {
+    "@deck.gl/carto": "^9.1.5",
     "@deck.gl/core": "^9.1.4",
     "@deck.gl/geo-layers": "^9.1.4",
     "@deck.gl/layers": "^9.1.4",

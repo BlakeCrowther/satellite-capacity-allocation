@@ -26,10 +26,10 @@ const SERVICE_AREA_COLORS: Record<string, [number, number, number]> = {
 
 // Satellite-specific colors
 export const SATELLITE_COLORS: Record<string, [number, number, number]> = {
-  'USA-SAT': [0, 0, 200],    // Deep blue color for USA-SAT
-  'NA-SAT': [0, 120, 255],   // Lighter blue for NA-SAT
-  'EU-SAT': [0, 180, 100],   // Green for EU-SAT
-  'DEFAULT': [180, 180, 180] // Default gray
+  'USA-SAT': [180, 80, 220],    // Purple for USA-SAT
+  'NA-SAT': [80, 200, 220],     // Cyan/Teal for NA-SAT
+  'EU-SAT': [150, 150, 180],    // Slate/Lavender for EU-SAT
+  'DEFAULT': [120, 120, 120]    // Darker gray
 };
 
 /**

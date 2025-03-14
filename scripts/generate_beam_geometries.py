@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import json
-import os
 import math
 import random
 from pathlib import Path

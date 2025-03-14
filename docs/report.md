@@ -12,7 +12,7 @@ The motivation behind this project is to rebuild the core visualizations using a
 
 ## Datasets (0.5 - 1 page) - Briefly describe the data and summarize its key attributes. Include description of significant preprocessing that was required for the project.
 
-This project utilizes synthetic datasets designed to mirror real satellite network data patterns while maintaining privacy and security. The data structure closely resembles operational satellite network data but has been generated with anonymized patterns based on typical usage scenarios. Four primary datasets form the foundation of this visualization project:
+This project utilizes synthetic datasets designed to mirror real satellite network data patterns while maintaining privacy and security. The data structure closely resembles operational satellite network data but has been generated with anonymized patterns. Four primary datasets form the foundation of this visualization project:
 
 ### Demand Data
 

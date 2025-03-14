@@ -7,12 +7,23 @@ export interface ViewState {
   bearing: number;
 }
 
+// Experiment configuration
+export interface Experiment {
+  id: string;
+  name: string;
+  description: string;
+  forecast_id: string;
+  projection_id: string;
+  epoch: number;
+}
+
 // Data configuration
 export interface DataConfig {
   forecast_id?: string;
   projection_id?: string;
   epoch?: number;
   selected_satellites?: string[];
+  experiment_id?: string;
 }
 
 // Data source configuration
@@ -68,11 +79,26 @@ export interface SatelliteCoverage {
 
 // Allocation
 export interface Allocation {
-  service_area: string;
   entity_id: string;
-  lat: number;
-  lon: number;
+  h3_index?: string;
+  service_area: string;
+  forecast_id: string;
+  projection_id?: string;
+  experiment?: string;
+  demand_mbps: number;
+  allocated_mbps: number;
+  satisfaction_pct?: number;
+  optimality_ratio?: number;
+  longitude?: number;
+  latitude?: number;
+  lon?: number;
+  lat?: number;
   epoch: number;
-  mbps: number;
-  satellite_id: string;
+  timestamp?: string;
+}
+
+// Service Area
+export interface ServiceArea {
+  service_area_id: string;
+  geom: GeoJSON.Geometry;
 } 
