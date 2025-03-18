@@ -10,6 +10,8 @@
     "generate-beams-py": "python scripts/generate_beam_geometries.py",
     "generate-supply-py": "python scripts/generate_supply_data.py",
     "generate-demand-py": "python scripts/generate_demand_data.py",
+    "generate-service-areas-py": "python scripts/generate_service_areas.py",
+    "generate-allocations-py": "python scripts/generate_allocations.py",
     "generate-all-data": "python scripts/generate_all_data.py"
   },
   "dependencies": {
