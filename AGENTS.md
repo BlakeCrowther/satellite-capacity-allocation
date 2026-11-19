@@ -9,11 +9,12 @@ Shared across Blake's repos. Repo-specific sections of this file override these 
 
 ### Commands
 
-Exact commands are listed elsewhere in this file. Every repo has `setup`, `dev`, `lint`, `typecheck`, `test`, `verify`; `services` if it has backing services.
+Exact commands are listed elsewhere in this file. Every repo has `bootstrap`, `dev`, `lint`, `typecheck`, `test`, `verify`; `services` if it has backing services.
 
-- Fresh worktree or sandbox: run `setup` first. It never starts services.
+- Fresh worktree or sandbox: run `bootstrap` first. It never starts services. Never run `pnpm setup` (pnpm builtin; edits shell config).
 - Start services only when the task needs them (`services`, or `dev`).
 - Never hardcode ports. HTTP via portless (`PORT`); databases via `*_URL` vars in `.env`.
+- Agents and sandboxes run `dev` with `PORTLESS_HTTPS=0` (no local CA or sudo) or `PORTLESS=0` (no proxy).
 - Run `verify` before claiming done.
 
 ### Testing
