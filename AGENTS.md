@@ -64,11 +64,17 @@ Every repo may go public, and history is public with it.
 - Owner-specific labels (places, pet or people names shown in the UI) come from the app's own data or untracked config, not hardcoded. Names in docs, copy and examples are fine.
 - Never commit secrets, tokens, account or artifact IDs. Use placeholders (`<id>`) and env vars.
 - Verify with synthetic data. If a real-data check is needed, run it locally and commit only the result, not the data.
+- Every clone runs the check on each commit: `dev-home/install-hooks.sh` installs a pre-commit hook that blocks staged lines with home paths, personal emails, artifact IDs, keys or private words (`--no-verify` only when it is meant to be public).
 - Before a repo goes public: `dev-home/public-check.sh <repo> --history` must be clean. If history has hits, publish a fresh repo from a squashed commit (or rewrite history) before flipping visibility.
 - Private words to scan for (names, places) go in `~/.config/dev-home/private-words`, never in a repo.
 
 ### Docs
 
 - Decision records (`docs/adr/`) and design docs (`docs/design/`) use OKF frontmatter with a `type`; `GLOSSARY.md` stays plain. Format and status mapping: dev-home `STANDARDS.md`, "Docs convention".
+
+### Plugins and sessions
+
+- Personal plugin packs (pstack, Pocock, EGM, model-selector) are enabled in user settings (`~/.claude/settings.json`), so they load in every repo. Never add them to a repo's `.claude/settings.json`; declare a plugin there only if the repo can't be worked on without it.
+- Start a session in the repo you're changing, so its skills, `.claude/launch.json` and `AGENTS.md` load. Start from dev-home only for work that spans repos.
 
 <!-- dev-home:standards:end -->
