@@ -1,0 +1,44 @@
+#!/usr/bin/env -S uv run --script
+# /// script
+# requires-python = ">=3.9"
+# dependencies = ["pyyaml"]
+# ///
+"""Fail if a doc in docs/adr or docs/design (except index.md) lacks YAML
+frontmatter with a non-empty `type`. Usage: check-doc-frontmatter [repo-root]"""
+import sys
+from pathlib import Path
+
+import yaml
+
+
+def problem(path):
+    text = path.read_text(encoding="utf-8")
+    lines = text.splitlines()
+    if not lines or lines[0].strip() != "---":
+        return "no frontmatter"
+    try:
+        end = next(i for i, l in enumerate(lines[1:], 1) if l.strip() == "---")
+    except StopIteration:
+        return "unterminated frontmatter"
+    try:
+        data = yaml.safe_load("\n".join(lines[1:end]))
+    except yaml.YAMLError as e:
+        return f"unparseable frontmatter: {e}".splitlines()[0]
+    if not isinstance(data, dict) or not str(data.get("type") or "").strip():
+        return "missing `type`"
+    return None
+
+
+root = Path(sys.argv[1] if len(sys.argv) > 1 else ".")
+failures = []
+for folder in ("docs/adr", "docs/design"):
+    for path in sorted((root / folder).rglob("*.md")):
+        if path.name == "index.md":
+            continue
+        reason = problem(path)
+        if reason:
+            failures.append(f"{path.relative_to(root)}: {reason}")
+
+for f in failures:
+    print(f)
+sys.exit(1 if failures else 0)
