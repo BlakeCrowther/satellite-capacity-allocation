@@ -9,12 +9,11 @@ Shared across Blake's repos. Repo-specific sections of this file override these 
 
 ### Commands
 
-Exact commands are listed elsewhere in this file. Every repo has `bootstrap`, `dev`, `lint`, `typecheck`, `test`, `verify`; `services` if it has backing services.
+Exact commands are listed elsewhere in this file. Every repo has `setup`, `dev`, `lint`, `typecheck`, `test`, `verify`; `services` if it has backing services.
 
-- Fresh worktree or sandbox: run `bootstrap` first. It never starts services. Never run `pnpm setup` (pnpm builtin; edits shell config).
+- Fresh worktree or sandbox: run `setup` first. It never starts services.
 - Start services only when the task needs them (`services`, or `dev`).
 - Never hardcode ports. HTTP via portless (`PORT`); databases via `*_URL` vars in `.env`.
-- Agents and sandboxes run `dev` with `PORTLESS_HTTPS=0` (no local CA or sudo) or `PORTLESS=0` (no proxy).
 - Run `verify` before claiming done.
 
 ### Testing
@@ -43,5 +42,16 @@ Comments are for humans. Default: none.
 - Contract at the boundary: inputs, outputs, invariants, errors, units.
 - Tag debt: `TODO(issue):`, `FIXME:`, `HACK:` (why + exit condition), `NOTE:`.
 - No dead or commented-out code. Update comments with the code.
+
+### Naming and explaining
+
+Written for a reader who switches in cold: the name or the first line should be enough.
+
+- Names say what a thing is or does, in plain words. No bare codes or numbers as identity (`G5`, `g23`, `tmp2`); a number may count things, never name them.
+- One name per concept everywhere (code, files, docs, UI), and one concept per name. Never reuse a name for a second thing. Rename when the meaning drifts, and update every reader in the same change.
+- Files and tools are named for their job (`render_contact_sheet`, not `qa_render`). Siblings follow one verb pattern.
+- Define each project term once in the repo's glossary. Gloss it at first use in any doc or plan.
+- Any pipeline or system of three or more stages gets a map (diagram plus table) in the repo, kept in step with renames.
+- Plans, reports and status: first line is the goal or result in plain words. Say what changed, what is verified, what is not. Restate where things stand; assume the reader forgot. Use a table or diagram over a paragraph for stages and comparisons.
 
 <!-- dev-home:standards:end -->
