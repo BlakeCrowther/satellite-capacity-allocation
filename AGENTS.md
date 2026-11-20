@@ -9,11 +9,12 @@ Shared across Blake's repos. Repo-specific sections of this file override these 
 
 ### Commands
 
-Exact commands are listed elsewhere in this file. Every repo has `setup`, `dev`, `lint`, `typecheck`, `test`, `verify`; `services` if it has backing services.
+Exact commands are listed elsewhere in this file. Every repo has `bootstrap`, `dev`, `lint`, `typecheck`, `test`, `verify`; `services` if it has backing services.
 
-- Fresh worktree or sandbox: run `setup` first. It never starts services.
+- Fresh worktree or sandbox: run `bootstrap` first. It never starts services. Never run `pnpm setup` (pnpm builtin; edits shell config).
 - Start services only when the task needs them (`services`, or `dev`).
 - Never hardcode ports. HTTP via portless (`PORT`); databases via `*_URL` vars in `.env`.
+- Agents and sandboxes run `dev` with `PORTLESS_HTTPS=0` (no local CA or sudo) or `PORTLESS=0` (no proxy).
 - Run `verify` before claiming done.
 
 ### Testing
@@ -53,5 +54,21 @@ Written for a reader who switches in cold: the name or the first line should be 
 - Define each project term once in the repo's glossary. Gloss it at first use in any doc or plan.
 - Any pipeline or system of three or more stages gets a map (diagram plus table) in the repo, kept in step with renames.
 - Plans, reports and status: first line is the goal or result in plain words. Say what changed, what is verified, what is not. Restate where things stand; assume the reader forgot. Use a table or diagram over a paragraph for stages and comparisons.
+
+### Public-safe repos
+
+Every repo may go public, and history is public with it.
+
+- No absolute or home paths in tracked files (`/Users/...`). Use repo-relative paths; `~` or `$HOME` only in docs and setup scripts.
+- The repo ships code and synthetic data, never the owner's real data. Defaults, seeds, fixtures and mocks are made up. Real snapshots and backups stay gitignored or outside the repo.
+- Owner-specific labels (places, pet or people names shown in the UI) come from the app's own data or untracked config, not hardcoded. Names in docs, copy and examples are fine.
+- Never commit secrets, tokens, account or artifact IDs. Use placeholders (`<id>`) and env vars.
+- Verify with synthetic data. If a real-data check is needed, run it locally and commit only the result, not the data.
+- Before a repo goes public: `dev-home/public-check.sh <repo> --history` must be clean. If history has hits, publish a fresh repo from a squashed commit (or rewrite history) before flipping visibility.
+- Private words to scan for (names, places) go in `~/.config/dev-home/private-words`, never in a repo.
+
+### Docs
+
+- Decision records (`docs/adr/`) and design docs (`docs/design/`) use OKF frontmatter with a `type`; `GLOSSARY.md` stays plain. Format and status mapping: dev-home `STANDARDS.md`, "Docs convention".
 
 <!-- dev-home:standards:end -->
