@@ -16,6 +16,7 @@ Exact commands are listed elsewhere in this file. Every repo has `bootstrap`, `d
 - Never hardcode ports. HTTP via portless (`PORT`); databases via `*_URL` vars in `.env`.
 - Agents and sandboxes run `dev` with `PORTLESS_HTTPS=0` (no local CA or sudo) or `PORTLESS=0` (no proxy).
 - Run `verify` before claiming done.
+- Package managers: pnpm for JS (`packageManager` field, `pnpm-lock.yaml`; never npm or yarn), uv for Python. Commands run as `pnpm <script>`.
 
 ### Testing
 
@@ -50,6 +51,7 @@ Written for a reader who switches in cold: the name or the first line should be 
 
 - Names say what a thing is or does, in plain words. No bare codes or numbers as identity (`G5`, `g23`, `tmp2`); a number may count things, never name them.
 - One name per concept everywhere (code, files, docs, UI), and one concept per name. Never reuse a name for a second thing. Rename when the meaning drifts, and update every reader in the same change.
+- Refer to a GitHub item as a link with kind, repo, number and title: `[PR lifeboard#34: add pnpm verify](url)`, `[epic lifeboard#20: lifeboard for anyone](url)`. Kind is `PR`, or the issue's `epic`/`feature`/`task` label (`issue` if none). Never a bare `#N`. Shorten long titles; keep the number.
 - Files and tools are named for their job (`render_contact_sheet`, not `qa_render`). Siblings follow one verb pattern.
 - Define each project term once in the repo's glossary. Gloss it at first use in any doc or plan.
 - Any pipeline or system of three or more stages gets a map (diagram plus table) in the repo, kept in step with renames.
