@@ -30,6 +30,7 @@ Exact commands are listed elsewhere in this file. Every repo has `bootstrap`, `d
 - Never push, force-push, or commit directly to the default branch. Every change lands through a PR, squash-merged. Applies even where GitHub doesn't enforce it.
 - Branch `<type>/<slug>`. Rename agent-prefixed branches (`claude/`, `cursor/`, `codex/`) before the first push.
 - Commit subject `<type>(<scope>): <summary>`, imperative, lowercase, no period. Body says why.
+- Issue titles are plain prose naming the outcome. Never a type prefix (`feat:`, `docs:`, `epic:`): the `epic`/`feature`/`task` label and sub-issue links carry type and hierarchy. The prefix belongs to commits, branches and PR titles only.
 - PR title uses the commit subject format. PR body: Why, What, Testing, Evidence, Notes.
 - Add each new PR to the Dev Board project: `gh project item-add 1 --owner BlakeCrowther --url <pr-url>` (skip if `gh` lacks the `project` scope).
 - Evidence: screenshots and a short recording for UI changes; command and output for API/CLI/data changes. Media goes on the PR, never in git (`.artifacts/` is gitignored).
