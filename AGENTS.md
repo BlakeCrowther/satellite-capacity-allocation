@@ -23,6 +23,8 @@ Exact commands are listed elsewhere in this file. Every repo has `bootstrap`, `d
 - Add a test only when it catches a failure nothing else catches. Extend an existing test before adding one.
 - No tautological tests: no asserting mocks, restating the implementation, or testing the framework or type checker.
 - Test behavior through public interfaces. A bug fix comes with a test that fails without it.
+- Prove a new check bites: make it fail once on a planted violation before trusting it. A check that warns and exits 0 checks nothing.
+- Every check runs in `verify` (or CI). A check script nothing runs rots; wire it in or delete it.
 
 ### Git and PRs
 
@@ -52,6 +54,7 @@ Written for a reader who switches in cold: the name or the first line should be 
 
 - Names say what a thing is or does, in plain words. No bare codes or numbers as identity (`G5`, `g23`, `tmp2`); a number may count things, never name them.
 - One name per concept everywhere (code, files, docs, UI), and one concept per name. Never reuse a name for a second thing. Rename when the meaning drifts, and update every reader in the same change.
+- Renames stop at persisted data (db collections and fields, storage keys, published paths) unless the same change ships a migration.
 - Refer to a GitHub item as a link with kind, repo, number and title: `[PR lifeboard#34: add pnpm verify](url)`, `[epic lifeboard#20: lifeboard for anyone](url)`. Kind is `PR`, or the issue's `epic`/`feature`/`task` label (`issue` if none). Never a bare `#N`. Shorten long titles; keep the number.
 - Files and tools are named for their job (`render_contact_sheet`, not `qa_render`). Siblings follow one verb pattern.
 - Define each project term once in the repo's glossary. Gloss it at first use in any doc or plan.
